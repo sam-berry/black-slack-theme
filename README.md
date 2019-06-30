@@ -4,7 +4,7 @@
 
 The following code is required in order to modify the colors of Slack:
 
-```
+```javascript
 document.addEventListener("DOMContentLoaded", function() {
 
    let webviews = document.querySelectorAll(".TeamView webview");
