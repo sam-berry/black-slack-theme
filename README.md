@@ -1,5 +1,6 @@
-# Custom Slack Theme
+# Slack Black Theme
 
+![screenshot of theme](example-screenshot.png)
 
 The following code is required in order to modify the colors of Slack:
 
