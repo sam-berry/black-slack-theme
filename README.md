@@ -54,6 +54,10 @@ document.addEventListener("DOMContentLoaded", function() {
 1. Make sure Slack is closed
 1. Download this GitHub repositoy
 1. Navigate to the root of the repo
-1. Run: `rm /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`
-1. Run: `cp ssb-interop.js $_`
+1. Run:
+
+```
+rm /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js \ 
+&& cp ssb-interop.js $_
+```
 1. Open Slack
