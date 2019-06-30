@@ -60,4 +60,3 @@ document.addEventListener("DOMContentLoaded", function() {
 rm /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js \ 
 && cp ssb-interop.js $_
 ```
-1. Open Slack
