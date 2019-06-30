@@ -48,3 +48,12 @@ document.addEventListener("DOMContentLoaded", function() {
 *This needs to be appended at the very bottom (outside of the block of code already in there, ie, at the document level).*
 
 *The file can be found: `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`*
+
+## To Install
+
+1. Make sure Slack is closed
+1. Download this GitHub repositoy
+1. Navigate to the root of the repo
+1. Run: `rm /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`
+1. Run: `cp ssb-interop.js $_`
+1. Open Slack
